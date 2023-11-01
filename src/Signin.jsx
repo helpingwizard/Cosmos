@@ -16,7 +16,7 @@ function Signin() {
                 justifyContent: "center"
             }}>
                 <Typography variant={"h6"}>
-                Welcome to Cosmos. Sign up below
+                Welcome to Cosmos. Sign in below
                 </Typography>
             </div>
         <div style={{display: "flex", justifyContent: "center"}}>
