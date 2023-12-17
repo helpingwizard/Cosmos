@@ -19,4 +19,4 @@ Welcome to the admin panel of our Course Selling Website! This panel is designed
 - **User Authentication:** Secure authentication using JSON Web Tokens.
 - **Responsive Design:** Utilizing Material-UI and Grid for responsive and mobile-friendly pages.
 
-- 
+  
