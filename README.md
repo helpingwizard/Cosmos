@@ -1,6 +1,7 @@
 # Course Selling Website Admin Panel
 
-Welcome to the admin panel of our Course Selling Website! This panel is designed to help you manage and control the courses available on our platform.
+Welcome to the admin panel of our Course Selling Website! This panel is designed to help you manage and control the courses available on our platform. 
+
 ## Technologies Used
 
 - **MongoDB:** NoSQL database used for storing course and user data.
@@ -18,4 +19,4 @@ Welcome to the admin panel of our Course Selling Website! This panel is designed
 - **User Authentication:** Secure authentication using JSON Web Tokens.
 - **Responsive Design:** Utilizing Material-UI and Grid for responsive and mobile-friendly pages.
 
-
+- 
