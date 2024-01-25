@@ -15,12 +15,12 @@ function Signup() {
                 display: "flex",
                 justifyContent: "center"
             }}>
-                <Typography variant= {"h6"}>
+                <Typography variant="h6" style={{ color: 'white' }}>
                 Welcome to Cosmos. Sign up below
                 </Typography>
             </div>
         <div style={{display: "flex", justifyContent: "center"}}>
-            <Card varint={"outlined"} style={{backgroundColor: "#D2E9E9",width: 400, padding: 20}}>
+            <Card varint={"outlined"} style={{backgroundColor: "#EEF5FF",width: 400, padding: 20}}>
                 <TextField
                     onChange={(evant11) => {
                         let elemt = evant11.target;
@@ -46,7 +46,7 @@ function Signup() {
                     size={"large"}
                     variant="contained"
                     onClick={async() => {
-                        const response = await axios.post("http://localhost:3000/admin/signup", {
+                        const response = await axios.post("https://sample-backend-hosting.onrender.com/admin/signup", {
                             username: email,
                             password: password
                         })

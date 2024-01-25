@@ -17,7 +17,7 @@ function Appbar() {
             res.json().then(callback2)
         }
         console.log("token - " + localStorage.getItem("token"));
-        fetch("http://localhost:3000/admin/me", {
+        fetch("https://sample-backend-hosting.onrender.com/admin/me", {
             method: "GET",
             headers: {
                 "Authorization": "Bearer " + localStorage.getItem("token")

@@ -60,7 +60,7 @@ function AddCourse() {
                     size={"large"}
                     variant="contained"
                     onClick = {async () => {
-                        await axios.post("http://localhost:3000/admin/courses", {
+                        await axios.post("https://sample-backend-hosting.onrender.com/admin/courses", {
                             title: title,
                             description: description,
                             imageLink : image,
